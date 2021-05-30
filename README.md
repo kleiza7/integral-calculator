@@ -15,3 +15,5 @@ Kullanımı
 5. N sayısının integrali kaç dikdörtgene veya yamuğa bölmek istiyorsanız o kadar giriniz.(integralin ve n sayısının büyüklüğüne göre hesaplanma süresi artacaktır.)
 
 6. Hesaplanma bittikten sonra dikdörtgenler ve yamuk metodu için ayrı ayrı sonuçları görebilirsiniz.
+
+![alt text](https://github.com/kleiza7/integral-calculator/blob/main/integral_calculator.png?raw=true "örnek_resim")
