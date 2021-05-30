@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integral Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Integral Calculator</h2>
+    <div class="container">
+       
+        <div class="inputContainer">
+            <label for="start">başlangıç noktası : </label>
+            <input id="start" name="start" class="input" type="text" />
+        </div>
+        <div class="inputContainer">
+            <label for="end">bitiş noktası :</label>
+            <input id="end" name="end" class="input" type="text" />
+        </div>
+        <div class="inputContainer">
+            <label for="function">fonksiyon :</label>
+            <input id="function" name="function" class="input" type="text" />
+        </div>
+        <div class="inputContainer">
+            <label for="nCount">n sayısı:</label>
+            <input id="nCount" name="nCount" class="input" type="text" />
+        </div>
+        <div class="buttonsContainer">
+            <button id="calculate" onClick="calculate()" class="button">hesapla</button>
+            <button id="clear" onClick="clearInputs()" class="button">temizle</button>
+        </div>
+        <div class="resultContainer">
+            <label for="result">dikdörtgenler yöntemi :</label>
+            <label id="rectangle" name="rectangle" class="result"></label>
+        </div>
+        <hr>
+        <div class="resultContainer">
+            <label for="result">yamuk yöntemi :</label>
+            <label id="trapezoid" name="trapezoid" class="result"></label>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

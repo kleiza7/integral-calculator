@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 40%; 
+    margin:40px auto;
+    
+}
+
+.buttonsContainer{
+    margin: 10px;
+}
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.button{
+    height:24px;
+}
+
+.inputContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resultContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
